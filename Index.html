@@ -3,73 +3,33 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Colculator</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+        <link rel="stylesheet" href=".css">
+        <script src="#"></script>
     </head>
     <body>
+
         <div class="wapper">
-            <section class="screnn">
-                0
-            </section>
-            <section class="calc-buttons">
-                <div class="calc-button-row">
-                    <button class="calc-button-double">
-                        C
-                    </button>
-                    <button class="calc-button">
-                    &divide;
-                    </button>
-                </div >
-                <div class="calc-button-row">
-                    <button class="calc-button">
-                        7
-                    </button>
-                    <button class="calc-button">
-                        8
-                    </button>
-                    <button class="calc-button">
-                        9
-                    </button><button class="calc-button">
-                    &times;
-                    </button>
-                </div>
-                <div class="calc-button-row">
-                    <button class="calc-button">
-                        4
-                    </button>
-                    <button class="calc-button">
-                        5
-                    </button>
-                    <button class="calc-button">
-                        6
-                    </button>
-                    <button class="calc-button">
-                        &ominus;
-                    </button>
-                </div>
-                <div class="calc-button-row">
-                    <button class="calc-button">
-                        1
-                    </button>
-                    <button class="calc-button">
-                        2
-                    </button>
-                    <button class="calc-button">
-                        3
-                    </button><button class="calc-button">
-                        &plus;
-                    </button>
-                        <div class="calc-button-row">
-                            <buttonc class="calc-button triple">
-                                0
-                            </button>
-                            <button class="calc-button">
-                                &equals;
-                            </button>
-                        </div>
-                    </div>
-            </section>
+            <input type="text" id="placement" placeholder="Enter some text ur URL">
+            <div class="options">
+                <select class="size">
+                    <option value="100">100 X 100</option>
+                    <option value="200">200 X 200</option>
+                    <option value="300" selected>300 X 300</option>
+                </select>
+                <input type="color" class="color-inp" id="color1">
+                <input type="color" class="color-inp" id="color2">
+            </div>
+
+            <div class="container"></div>
+            <div class="box">
+                <button id="generate" disabled>Generate</button>
+                <a href="#" id="donwload">Donwload</a>
+            </div>
         </div>
-    <script src="script.js"></script>
+
+
+
+        <script src="script.js"></script>
     </body>
 </html>
